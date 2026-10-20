@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "rainywater",
+  "version": "${version}",
+  "name": "Rainy Water",
+  "description": "Client-side rain that works anywhere, dark murky water and ripples.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.rainywater.RainyWaterClient"] },
+  "mixins": ["rainywater.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

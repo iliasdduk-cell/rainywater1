@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.rainywater.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["WorldMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
